@@ -1,0 +1,59 @@
+font-face {
+  src: url(fonts/Neutronium.ttf);
+  font-family: 'nos';
+}
+
+.title h1{
+  padding: 0;
+  margin: 0;
+  font-family: 'nos';
+  font-weight: lighter;
+}
+
+body{
+  background-image: url(N4S.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul{
+  float: left;
+  list-style-type: none;
+
+}
+ul li{
+  display: inline-block;
+
+}
+
+ul li a{
+  text-decoration: none;
+  color: #fff;
+  padding: 5px 20px;
+  border: 1px solid #fff;
+}
+
+ul li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.title{
+  position: absolute;
+  top: 20%;
+  left: 65%;
+  transform: translate(-180%,-80%);
+}
+.title h1{
+  color: #fff;
+  font-size: 70px;
+
+}
+.timer {
+  font-size: 2.5em;
+  padding: 10px;
+  text-align: right;
+  margin: 0 auto;
+  color:  #ffffff;
+}

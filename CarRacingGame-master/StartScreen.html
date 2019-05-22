@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Need for speed 2019</title>
+		<link rel ="stylesheet" type="text/css" href="StartScreen.css">
+		<style>
+			body { margin: 0; }
+			canvas { width: 100%; height: 100% }
+			input[type=button], input[type=submit], input[type=reset]{
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 25px 45px;
+  text-decoration: none;
+  margin: 4px 2px;
+	cursor: pointer;
+}
+		</style>
+	</head>
+	<body>
+			<div class="main">
+				<ul>
+    <li><a href="selectLevel.html">Start</a><li>
+	</ul>
+	</div>
+<div class="title">
+		<h1>Need For Speed 2019</h1>
+</div>
+<script>
+var audio;
+
+function initAudioPlayer() {
+audio = new Audio();
+audio.src = "sounds/back.ogg";
+audio.loop = true;
+audio.play();
+
+}
+
+initAudioPlayer();
+
+</script>
+
+	</body>
+</html>
